@@ -1,7 +1,9 @@
 # WACAD
-This repo contains resources for working with **Web Archive Collections as Data (WACAD)**. It is work in progress and for the moment includes a few Jupyter notebooks to demonstrate how to work with WACAD data.
+This repo contains resources for working with **Web Archive Collections as Data (WACAD)**. WACAD is largely inspired by [Collections as Data](https://collectionsasdata.github.io/) and by the efforts of the International GLAM Labs community to facilitate computational approaches to cultural heritage data.
 
-## Preparation
+The notebooks are work in progress and, for the moment, includes a few Jupyter notebooks to demonstrate how you can work with WACAD data.
+
+## Requirements & Setup
 The notebooks can be run in several ways, e.g.:
 1. Locally on your machine, using Jupyter Lab or Jupyter Notebook.
 2. In the cloud, using a platform like Google Colab. 
@@ -11,17 +13,39 @@ While running the notebooks in the cloud is easier, it may not be suitable for a
 ### For local execution
 To run the notebooks locally, you need to have e.g. python3 or [Anaconda](https://www.anaconda.com/download)/[Miniconda](https://www.anaconda.com/docs/getting-started/miniconda/main) installed.
 
+#### python3
+In your terminal, from the repo root, run:
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+python3 -m pip install -r requirements.txt
+```
+
+#### miniconda
+In your terminal, from the repo root, run:
+```
+conda create -n myenv
+conda activate myenv
+python -m pip install -r requirements.txt
+```
+
+#### Anaconda GUI
+Open Anaconda Navigator:
+- Go to **Environments**.
+- Click **Create** and name it, e.g. "wacad"
+- Add the packages listed in `requirements.txt`
+
 ### For Google Colab notebooks
 --> Here goes descriptions of how to find the Colab notebooks.
 
 ## Usage: How to run notebooks
-Notebooks consists of cells that can be executed, one by one. These cells are either *code* cells, which contain executable code, or *markdown* cells, which contain descriptive or narrative text, such as comments or instructions.
+Notebooks consist of cells that can be executed, one by one. These cells are either *code* cells, which contain executable code, or *markdown* cells, which contain descriptive or narrative text, such as comments or instructions.
 
 ### Markdown cells
 Markdown cells support various formatting options, including headings, lists, links, images, and code snippets. To learn more about formatting text with markdown, visit [Markdown Guide](https://www.markdownguide.org/basic-syntax/).
 
 ### Code cells
-Code cells contains executable code. We mention some basic operations here, while a thorough guide for running notebooks can be found at [Jupyter Notebook Documentation](https://jupyter-notebook.readthedocs.io/en/stable/).
+Code cells contain executable code. We outline some basic operations below, while a thorough guide to running notebooks is available in the [Jupyter Notebook Documentation](https://jupyter-notebook.readthedocs.io/en/stable/). (For Google Colab, see their ["Getting started"](https://colab.research.google.com/?utm_source=scs-index#scrollTo=GJBs_flRovLc) section.)
 
 #### Editing code cells
 The prepared notebooks have examples and can be run as they are. You can also modify them to fit your own needs.
