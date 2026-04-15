@@ -1,0 +1,16 @@
+--index-url https://test.pypi.org/simple/
+--extra-index-url https://pypi.org/simple/
+
+wa-nlnz-toolkit
+wa-nlnz-semanticsearch
+pandas<2.2
+beautifulsoup4
+numpy<2.0
+tqdm
+pyarrow<17
+fastparquet
+llama-index<0.11
+llama-index-embeddings-huggingface
+llama-index-vector-stores-faiss
+faiss-cpu
+ipython
