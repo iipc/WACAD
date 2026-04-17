@@ -20,3 +20,5 @@ waybackpy
 selenium
 opencv-python
 scikit-image
+PIL
+cv2
