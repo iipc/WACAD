@@ -76,5 +76,5 @@ api_key.*
 !.env.template
 
 # Allow screenshots folder, but disallow images within it
-screenshots/*.png
-screenshots/diff/*.png
+notebooks/screenshots/*.png
+notebooks/screenshots/diff/*.png
