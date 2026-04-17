@@ -14,3 +14,6 @@ llama-index-embeddings-huggingface
 llama-index-vector-stores-faiss
 faiss-cpu
 ipython
+plotly==5.24.1
+dhlab==2.41.0
+
