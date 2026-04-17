@@ -74,3 +74,7 @@ api_key.*
 !.env.example
 !.env.sample
 !.env.template
+
+# Allow screenshots folder, but disallow images within it
+screenshots/*
+!screenshots/.gitkeep
