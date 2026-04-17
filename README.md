@@ -18,7 +18,8 @@ In your terminal, from the repo root, run:
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
-python3 -m pip install -r requirements.txt
+pip install -r requirements.txt
+jupyter notebook
 ```
 
 #### miniconda
@@ -26,7 +27,8 @@ In your terminal, from the repo root, run:
 ```
 conda create -n myenv
 conda activate myenv
-python -m pip install -r requirements.txt
+pip install -r requirements.txt
+jupyter notebook
 ```
 
 #### Anaconda GUI
