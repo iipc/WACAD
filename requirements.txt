@@ -16,4 +16,7 @@ faiss-cpu
 ipython
 plotly==5.24.1
 dhlab==2.41.0
-
+waybackpy
+selenium
+opencv-python
+scikit-image
